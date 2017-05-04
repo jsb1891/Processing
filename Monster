@@ -1,0 +1,34 @@
+void setup() {
+size(500,500);
+}
+
+void draw() {
+fill(255,0,0);
+rect(50,50,400,400);
+fill(255,255,0);
+ellipse(250,175,130,130);
+fill(255,3,154);
+ellipse(250,175,30,30);
+fill(0);
+rect(125,300,250,100);
+beginShape();
+fill(255);
+vertex(225,300);
+vertex(250,350);
+vertex(275,300);
+endShape(CLOSE);
+beginShape();
+fill(255);
+vertex(175,400);
+vertex(200,360);
+vertex(225,400);
+endShape(CLOSE);
+beginShape();
+fill(255);
+vertex(325,400);
+vertex(300,360);
+vertex(275,400);
+endShape(CLOSE);
+fill(52,198,50);
+rect(150,110,200,20);
+}
